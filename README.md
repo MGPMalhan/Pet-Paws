@@ -8,7 +8,8 @@ Pet Paws is a vibrant online platform catering to pet lovers and owners alike. W
 
 Combining elements of a pet adoption service, social network, and educational resource, Pet Paws offers a seamless experience for pet enthusiasts of all kinds. Explore a wide array of pets available for adoption, connect with fellow animal lovers, and access valuable information on pet health and well-being.
 
-# Pet Paws Platform Features
+
+## Pet Paws Platform Features
 
  -  **Login and Registration:**
    Enables pet owners to register accounts and securely log in to access personalized services.
@@ -28,6 +29,7 @@ Combining elements of a pet adoption service, social network, and educational re
  -  **Safe Transaction Processing:**
    Ensures safe and secure online transactions for customers, facilitating easier payment for goods and services.
 
+
 ## Tech Stack
 
 Pet Paws Web Application is built using the MERN stack:
@@ -35,6 +37,7 @@ Pet Paws Web Application is built using the MERN stack:
 - **MongoDB:** For efficient storage and management of pet data.
 - **Express.js:** For building robust and scalable web applications.
 - **Node.js:** For server-side scripting and runtime environment.
+
 
 ## Getting Started
 
@@ -44,14 +47,17 @@ To get started with Pet Paws Web Application locally, follow these steps:
 2. Navigate to the project directory: `cd pet-paws`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
+   
 
 ## Project Status
 
 Pet Paws Web Application is an ongoing project, and we're continuously working on enhancing its features and improving the user experience. While the current version provides a solid foundation, there's still much more to come!
 
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 ## Acknowledgements
 
