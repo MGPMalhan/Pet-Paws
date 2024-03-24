@@ -1,0 +1,130 @@
+/* AddAppointmentForm.css */
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+
+  .form-container label:first-child {
+    margin-top: 100px; /* Add 10px top margin for the first label */
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="date"],
+  .form-container input[type="time"],
+  .form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-container textarea {
+    height: 80px;
+  }
+  
+  .form-container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* AddAppointment.css */
+
+/* Style for the date input */
+#appointmentDate {
+    width:90%;
+    padding: 8px;
+    background-color: #d5dbe0;
+    border: none;
+    border-radius: 8px;
+    height: 28%;
+  }
+  
+  /* Style for the time input */
+  #appointmentTime {
+    width: 95%;
+    padding: 8px;
+    background-color: #d5dbe0;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  /* Style for the note textarea */
+  #note {
+    width: 98%;
+    padding: 8px;
+    height: 100px; /* Adjust height as needed */
+    margin-bottom: 15px;
+    background-color: #d5dbe0;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .row > div {
+    width: 48%; /* Adjust as needed */
+  }
+
+  .submit {
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+/* AddAppointmentForm.css */
+.select-container {
+    margin-bottom: 1rem;
+  }
+  
+  .select-label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .select-input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    background-color: #d5dbe0;
+  }
+  
+  .select-input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .select-option {
+    padding: 0.5rem;
+  }
+  

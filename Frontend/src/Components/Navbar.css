@@ -1,0 +1,72 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: white;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    border-bottom: 2px solid #cccccc; /* Add border */
+  }
+  
+  
+  .navbar-logo img {
+    height: 50px;
+  }
+  
+  .navbar-nav {
+    list-style-type: none;
+    display: flex; /* Display the list horizontally */
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-item {
+    margin-right: 30px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav-link:hover {
+    color: #333;
+  }
+  
+  .navbar-buttons .btn {
+    margin-left: 10px;
+  }
+  
+  /* Example styling for buttons */
+  .btn {
+    padding: 16px 25px;
+    border: none;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .btn-primary:hover {
+    background-color: #065db9;
+  }
+
+  .navbar-title {
+    font-weight: bold;
+    font-size: 20px; 
+    color: #007bff;
+    display: flex; /* Display the list horizontally */
+  }

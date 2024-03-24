@@ -1,0 +1,25 @@
+.admin-content {
+    display: flex;
+  }
+  
+  .update-user-heading {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(194, 19, 194);
+  }
+  
+  .update-user-form {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  /* UpdateUserPage.css */
+  
+  .update-user-form {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px;
+  }
+  

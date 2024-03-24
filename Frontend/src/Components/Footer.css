@@ -1,0 +1,81 @@
+.footer {
+    background-color: rgb(48, 35, 35);
+    color: white;
+    padding: 20px;
+  }
+  
+  .upper-section {
+    text-align: center;
+  }
+  
+  .subscribe {
+    margin-bottom: 20px;
+  }
+  
+  .subscribe input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 30%;
+  }
+  
+  .subscribe button {
+    padding: 10px 20px;
+    background-color: #486BD9;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .middle-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .pet-icon {
+    text-align: center;
+    width:20%
+  }
+
+  .pet-icon p{
+    text-align: left;
+    width:60%;
+    margin-left: 70px;
+  }
+  
+  .pet-icon img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .quick-links ul {
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  .quick-links li {
+    margin-bottom: 10px;
+    text-decoration: none;
+    align-items: center;
+  }
+
+  .quick-links a {
+    color: white;
+    text-decoration: none; /* Remove underline */
+  }
+
+  
+  .our-location {
+    text-align: center;
+  }
+  
+  .our-location img {
+    width: 400px;
+    height: auto
+  }
+  
+  .bottom-section {
+    text-align: center;
+  }
+  

@@ -1,0 +1,430 @@
+/* Home.css */
+
+.home-container {
+  position: relative;
+}
+
+
+.content-container {
+  position: relative;
+  z-index: 1;
+}
+
+.background-image {
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #486BD9;
+  z-index: 1; /* Ensure the overlay appears above the background image */
+  text-align: left;
+}
+
+.overlay h1 {
+  font-size: 36px;
+}
+
+.overlay p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  width: 70%;
+  color: #000000;
+}
+
+.book-appointment-btn {
+  padding: 10px 20px;
+  background-color: #486BD9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-appointment-btn:hover {
+  background-color: darkblue;
+}
+
+/* Home.css */
+
+.card-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.card-container {
+  text-align: center;
+}
+.card-container button {
+  display: inline-block; /* Ensure button is inline */
+}
+.blue-card {
+  background-color: #486BD9;
+  color: white;
+  padding: 20px;
+}
+
+.blue-card h2 {
+  text-align: center;
+}
+
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: calc(25% - 20px); /* Adjust the width of each card */
+  margin-bottom: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+}
+
+.paragraph {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.card-container button {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  margin-top: 30px;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-items: center;
+}
+
+.card-container button:hover {
+  background-color: #4ddf14cc;
+  color: azure;
+}
+
+.services-container {
+    background-color: #f9f9f9; /* Background color for services container */
+    padding: 50px; /* Adjust padding as needed */
+  }
+  
+  .services-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+  }
+  
+  .services-content {
+    flex: 1;
+  }
+
+  .services-content h1 {
+    color: #486BD9;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .services-content p {
+    color: #000000;
+    font-weight: 300;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    width: 120%;
+  }
+  
+  .services-list {
+    margin-bottom: 20px;
+  }
+  
+  .service {
+    padding: 10px 0;
+  }
+  
+  .services-image {
+    flex: 1;
+    margin-left: 50px; /* Adjust margin as needed */
+  }
+  
+  .services-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px; /* Optional: Add border radius to image */
+    margin-left: 180px;
+  }
+  
+  .view-all-services-btn {
+    background-color: #486BD9;
+    color: rgb(255, 255, 255); /* Set text color to white for better contrast */
+    padding: 10px 20px; /* Add padding to make the button larger */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-all-services-btn:hover {
+    background-color: darkblue; /* Change background color on hover */
+  }
+  
+
+.client-review-section {
+  background-color: #486BD9;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.client-review-section h2 {
+  margin-bottom: 20px;
+}
+
+.slick-slider {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slick-slide {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.slick-dots li button:before {
+  color: white;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #0056b3;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .service {
+    display: flex;
+    align-items: center;
+    margin: 0; /* Reset margins */
+    padding: 0; /* Reset padding */
+  }
+  
+  
+  .service-icon {
+    color: #486BD9; /* Set the color of the star icons */
+    margin-right: 10px; /* Adjust spacing between the icon and the service name */
+    font-size: 24px; /* Increase the font size of the star icons */
+  }
+
+  .popup-cards {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 14px;
+  }
+  
+  .popup-card-content {
+    text-align: center;
+  }
+  
+  .logo {
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    max-width: 100px; /* Adjust as needed */
+  }
+  
+  .titles {
+    text-align: center;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+  
+  .form-containers {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-card,
+  .right-card {
+    width: calc(50% - 10px);
+  }
+  
+  .left-card {
+    margin-right: 10px;
+  }
+  
+  .right-card {
+    margin-left: 10px;
+  }
+  
+  .left-card h3,
+  .right-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+  input[type="file"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #d5dbe0;
+  }
+  
+  .breed-gender {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .breed-gender input[type="text"] {
+    width: calc(50% - 5px);
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #888;
+  }
+  
+  .submit-btn {
+    background-color: #486BD9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .logo-name {
+    font-weight: 900;
+    color: purple;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 22px;
+  }
+  
+  .logoslogan{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(102, 102, 94);
+    font-size: 13px;
+  }
+
+  .pet-image {
+    position: relative;
+    height: 28%; /* Adjust size as needed */
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 11px;
+    background-color: #c1b9e4;
+    cursor:pointer;
+    border-radius: 15px;
+  }
+  
+  
+  .circular-input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    color: #000000;
+  }
+  
+  .circular-input:focus + i {
+    outline: none;
+  }
+  
+  .circular-input + i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px; /* Adjust size as needed */
+  }
+  
+  .addpetimg{
+    margin-top: 26px;
+    font-size: 16px;
+  }
+
+  .titlesLogin{
+    text-align: center;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-transform: uppercase;   
+  }
+
+  h6{
+    margin-top: 5px;
+    font-weight: 600;
+  }
+
+  .contact-nic-row {
+    display: flex;
+  }
+  
+  .contact-nic-row input:not(:last-child) {
+    margin-right: 10px; /* Adjust spacing as needed */
+  }
+
+  .genderdropdown {
+    background-color: #d5dbe0;
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    margin-left:20px;
+    height: 35px;
+  }
+  

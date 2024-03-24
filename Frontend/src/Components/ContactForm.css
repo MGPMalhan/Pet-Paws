@@ -1,0 +1,139 @@
+.card-contact {
+    background-color: #486BD9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+
+  .card-body {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffffff;
+  }
+
+  /* Update ContactForm.css */
+
+/* Styles for the popup */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for the card effect */
+    max-width: 400px; /* Adjust as needed */
+  }
+  
+  .popup-content h3 {
+    margin-top: 0;
+  }
+  
+  
+  .form-groups {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .large-input {
+    height: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex: 1; /* Allow input fields to grow and fill available space */
+    text-align: center;
+  }
+  
+  .btn-submit {
+    background-color: rgb(255, 255, 255);
+    color: #486BD9;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn-submit:hover {
+    background-color: #c7ccd1;
+  }
+  
+  .card-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .card-footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .card-footer a:hover {
+    text-decoration: underline;
+  }
+
+  .form-groups {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between input fields */
+  }
+  
+  .form-groups input {
+    flex: 1; /* Allow input fields to grow and fill available space */
+    margin-right: 10px; /* Adjust margin between input fields */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    text-align: center;
+  }
+  
+  /* Update ContactForm.css */
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for the card effect */
+    max-width: 400px; /* Adjust as needed */
+    text-align: center; /* Center align the content */
+  }
+  
+  .popup-content img {
+    width: 80px; /* Adjust image size as needed */
+    margin-bottom: 20px; /* Add space between image and title */
+  }
+  
+
+  .Continue {
+    background-color: #007bff;
+    color: white;
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 4px; /* Add border radius */
+    cursor: pointer; /* Add cursor pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .Continue:hover {
+    background-color: #0056b3; /* Darken the background color on hover */
+  }

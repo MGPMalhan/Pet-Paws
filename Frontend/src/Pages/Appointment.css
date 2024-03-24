@@ -1,0 +1,31 @@
+.appointment-container {
+    display: flex;
+    border: 1px solid #ccc; /* Add border with color #ccc */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    overflow: hidden; /* Ensure child elements don't overflow */
+    margin: 10px;
+  }
+  
+  
+  .form-column {
+    flex: 1; /* Take up remaining space */
+    margin-left: 50px;
+  }
+  
+  .image-column {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    justify-content: flex-end; /* Align image to the right */
+    align-items: center; /* Center image vertically */
+  }
+  
+  .image-column img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    max-height: auto; /* Ensure the image doesn't exceed the container height */
+  }
+  
+
+  .appintmentTitle{
+    text-align: center;
+    color: rgb(31, 70, 197);
+  }

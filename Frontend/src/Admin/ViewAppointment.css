@@ -1,0 +1,58 @@
+
+  
+  .appointments-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .appointments-table th,
+  .appointments-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  .appointments-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: #f2f2f2;
+  }
+  
+  .appointments-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .adminappointmenttitle {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(194, 19, 194);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* AddAppointment.css */
+
+/* Style for the update and delete buttons */
+button {
+    padding: 8px 16px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green */
+  }
+  
+  /* Additional styles for the update button */
+  button.update {
+    background-color: #008CBA; /* Blue */
+  }
+  
+  /* Additional styles for the delete button */
+  button.delete {
+    background-color: #f44336; /* Red */
+  }
+  
+  

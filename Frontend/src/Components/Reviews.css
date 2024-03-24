@@ -1,0 +1,24 @@
+.client-reviews-card {
+    position: relative;
+    background-color: #486BD9;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .dog-footprint-image {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .review {
+    margin-top: 20px;
+  }
+  
+  .review p {
+    margin-bottom: 10px;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  

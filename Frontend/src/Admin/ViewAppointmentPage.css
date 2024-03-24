@@ -1,0 +1,23 @@
+.admin-content {
+    display: flex;
+  }
+  
+  .admin-sidebar {
+    width: 250px; /* Adjust as needed */
+    background-color: #453f4e; /* Sidebar background color */
+    padding: 20px;
+    height: 1000px;
+  }
+  
+  .view-appointments {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .view-appointments {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px;
+  }

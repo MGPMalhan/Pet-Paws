@@ -1,0 +1,48 @@
+.new-appointment-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .appointment-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .appointment-details {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .appointment-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .appointment-details p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .book-appointment-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .book-appointment-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .appointment-title{
+    color: #2c7bcf;
+    font-size: 30px;
+  }
+  

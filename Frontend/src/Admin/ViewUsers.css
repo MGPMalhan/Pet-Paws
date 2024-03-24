@@ -1,0 +1,77 @@
+/* ViewUsersPage.css */
+
+/* Style for the users table */
+.users-table {
+    min-width: 900px;
+    max-width: 900px;
+    border-collapse: collapse;
+    margin-left: 15px;
+  }
+  
+  .users-table th,
+  .users-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .users-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: #f2f2f2;
+  }
+  
+  .users-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for the title of the user table */
+  .admin-usertitle {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 123, 255);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style for the action buttons (update and delete) */
+  button {
+    padding: 8px 16px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green */
+  }
+  
+  /* Additional styles for the update button */
+  button.update {
+    background-color: #008CBA; /* Blue */
+  }
+  
+  /* Additional styles for the delete button */
+  button.delete {
+    background-color: #f44336; /* Red */
+  }
+  
+  .adminusertitle{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(194, 19, 194);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .pet-image{
+    width: 100%;
+    height: auto;
+    border-radius: 0%;
+  }
+
+  .pet-image-cell{
+    width: 50px;
+  }
